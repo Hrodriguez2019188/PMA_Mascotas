@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "CRUD mascotas",
+    "dateExported": "2024-02-23T16:34:00.029Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5754f909-752d-428e-b55a-756f9ed74de0",
+            "colId": "73769700-1b1f-44e4-aa3c-e50a875734b3",
+            "containerId": "",
+            "name": "postMascota",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-23T14:42:43.737Z",
+            "modified": "2024-02-23T15:25:33.339Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Chuchino\",\n  \"edad\": \"13 años\",\n  \"clase\": \"Perrito con sarna\",\n  \"adoptado\": \"ADOPTADO\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7b317ce2-7486-4a1e-85ef-1eed015536a2",
+            "colId": "73769700-1b1f-44e4-aa3c-e50a875734b3",
+            "containerId": "",
+            "name": "getMascotaById",
+            "url": "http://localhost:3000/api/mascotas/65d8b8ed86ce8a776ee40947",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-23T14:42:43.738Z",
+            "modified": "2024-02-23T15:25:39.984Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bc554efd-c475-4cb7-b388-869e7849b2b6",
+            "colId": "73769700-1b1f-44e4-aa3c-e50a875734b3",
+            "containerId": "",
+            "name": "getMascotas",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-23T14:47:26.724Z",
+            "modified": "2024-02-23T14:47:37.048Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f5c76910-f44b-4948-8068-58eb2f379ed7",
+            "colId": "73769700-1b1f-44e4-aa3c-e50a875734b3",
+            "containerId": "",
+            "name": "putMascotas",
+            "url": "http://localhost:3000/api/mascotas/65d8b8ed86ce8a776ee40947",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-23T14:54:15.600Z",
+            "modified": "2024-02-23T15:25:54.742Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"xd\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6bef0831-693e-48c1-92ad-87b0751c8171",
+            "colId": "73769700-1b1f-44e4-aa3c-e50a875734b3",
+            "containerId": "",
+            "name": "deleteMascotas",
+            "url": "http://localhost:3000/api/mascotas/65d8b8ed86ce8a776ee40947",
+            "method": "DELETE",
+            "sortNum": 45000,
+            "created": "2024-02-23T14:59:03.187Z",
+            "modified": "2024-02-23T15:26:04.227Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
